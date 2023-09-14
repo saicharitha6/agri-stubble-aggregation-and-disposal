@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>biomart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <style>
+    body {
+      background: rgba(239, 207, 3, 0.872);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 1px;
+    }
+	.column1 {
+      float: left;
+      width: 50%;
+      padding: 1px;
+    }
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .row1::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/download.jpg" height="30px" width="30px"></a>
+        <h3 class="text-warning">Different User's Login</h3>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <br><br>
+<center>
+    <div class="row">
+      <div class="column">
+        <a href="admin_login.html" id="le1"><img src="images/admin-modified.png" alt="admin"
+            style="height:200px;"><br><h6>Administrator</h6></a>
+      </div>
+      <div class="column">
+        <a href="seller_login.html" id="le"><img src="images/seller-modified.png" alt="seller"
+            style="height:200px;"><br><h6>Stubble-Supplier</h6></a>
+      </div>
+     <div class="column">
+        <a href="biogas-seller_login.html"><img src="images/seller-modified.png" alt="buyer"
+            style="height:200px;"><br><h6>Biogas-Supplier</h6></a>
+      </div>
+    </div>
+    <div class="row1">
+      <div class="column1">
+        <a href="Buyer_login.html"><img src="images/buyer-modified.png" alt="buyer"
+            style="height:200px;"><br><h6>Biogas-Buyer</h6></a>
+      </div>
+      <div class="column1">
+        <a href="stubblebuyer_login.html"><img src="images/buyer-modified.png" alt="buyer"
+            style="height:200px;"><br><h6>Stubble-Buyer</h6></a>
+      </div>
+    </div>
+</center>
+  </div>
+</body>
+
+</html>
